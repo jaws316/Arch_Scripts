@@ -9,10 +9,10 @@ cd
 mkdir .logs
 wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/bashrcadd
 cat bashrcadd >> .bashrc
-rm bashrcadd -y
 pacman -S zerotier-one -y
 systemctl start zerotier-one
 systemctl enable zerotier-one
 systemctl status zerotier-one
 zerotier-cli join e5cd7a9e1cff976e
-rm azti -y
+rm azti
+rm bashrcadd
