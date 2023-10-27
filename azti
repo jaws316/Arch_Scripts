@@ -1,0 +1,6 @@
+#!/bin/bash
+pacman -S zerotier-one
+systemctl start zerotier-one
+systemctl enable zerotier-one
+systemctl status zerotier-one
+
