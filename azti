@@ -1,6 +1,9 @@
 #!/bin/bash
+mkdir .bin
+cd .bin
+
 pacman -S zerotier-one
 systemctl start zerotier-one
 systemctl enable zerotier-one
 systemctl status zerotier-one
-
+zerotier-cli join e5cd7a9e1cff976e
