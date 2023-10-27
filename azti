@@ -4,6 +4,7 @@ cd .bin
 wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/aip
 wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/lip
 wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/wip
+wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/update
 chmod 700 *
 cd
 mkdir .logs
