@@ -1,6 +1,12 @@
 #!/bin/bash
 mkdir .bin
 cd .bin
+wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/aip
+wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/lip
+wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/wip
+chmod 700 *
+cd
+mkdir .logs
 
 pacman -S zerotier-one
 systemctl start zerotier-one
