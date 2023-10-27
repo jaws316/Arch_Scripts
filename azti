@@ -10,7 +10,7 @@ cd
 mkdir .logs
 wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/bashrcadd
 cat bashrcadd >> .bashrc
-pacman -S zerotier-one -y
+pacman -S zerotier-one
 systemctl start zerotier-one
 systemctl enable zerotier-one
 systemctl status zerotier-one
