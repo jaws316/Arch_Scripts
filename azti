@@ -5,7 +5,7 @@ wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/aip
 wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/lip
 wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/wip
 wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/update
-chmod 700 *
+chmod 755 *
 cd
 mkdir .logs
 wget https://raw.githubusercontent.com/jaws316/Arch_Scripts/main/bashrcadd
