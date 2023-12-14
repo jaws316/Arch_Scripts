@@ -1,5 +1,5 @@
 #!/bin/bash
-lip=$(hostname -I)
+lip=$(hostname -i)
 echo ""
 echo "My lAN IP Address Is:" $lip
 echo ""
